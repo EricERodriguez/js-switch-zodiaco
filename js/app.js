@@ -1,13 +1,14 @@
 let month = window.prompt(`Ingrese el mes que nacio`);
 let day =window.prompt(`Ingrese el dia`);
 
-month = month.toLowerCase();
+// month = month.toLowerCase();
+month = parseInt(month);
 
 console.log(month);
 
 
 switch(month) {
-    case 'enero':
+    case 1:
         if( day >= 21) {
             document.write('<p> su signo es ACUARIO</p>');
             document.write('<img src="assets/acuario.jpg">');
@@ -18,7 +19,7 @@ switch(month) {
         
         break;
 
-    case 'febrero':
+    case 2:
         if( day >= 19) {
             document.write('<p> su signo es PISCIS</p>');
             document.write('<img src="assets/piscis.jpg">');
@@ -29,7 +30,7 @@ switch(month) {
         
         break;
 
-    case 'marzo':
+    case 3:
         if( day >= 21) {
             document.write('<p> su signo es ARIES</p>');
             document.write('<img src="assets/aries.jpg">');
@@ -40,7 +41,7 @@ switch(month) {
         
         break;
 
-    case 'abril':
+    case 4:
         if( day >= 21) {
             document.write('<p> su signo es TAURO</p>');
             document.write('<img src="assets/tauro.jpg">');
@@ -51,7 +52,7 @@ switch(month) {
         
         break;
 
-    case 'mayo':
+    case 5:
         if( day >= 21) {
             document.write('<p> su signo es GEMINIS</p>');
             document.write('<img src="assets/geminis.jpg">');
@@ -62,7 +63,7 @@ switch(month) {
         
         break;
 
-    case 'junio':
+    case 6:
         if( day >= 22) {
             document.write('<p> su signo es CANCER</p>');
             document.write('<img src="assets/cancer.jpg">');
@@ -73,7 +74,7 @@ switch(month) {
         
         break;
 
-    case 'julio':
+    case 7:
         if( day >= 23) {
             document.write('<p> su signo es LEO</p>');
             document.write('<img src="assets/leo.jpg">');
@@ -84,7 +85,7 @@ switch(month) {
         
         break;
 
-    case 'agosto':
+    case 8:
         if( day >= 23) {
             document.write('<p> su signo es VIRGO</p>');
             document.write('<img src="assets/virgo.jpg">');
@@ -95,7 +96,7 @@ switch(month) {
         
         break;
 
-    case 'septiembre':
+    case 9:
         if( day >= 23) {
             document.write('<p> su signo es LIBRA</p>');
             document.write('<img src="assets/libra.jpg">');
@@ -106,7 +107,7 @@ switch(month) {
         
         break;
 
-    case 'octubre':
+    case 10:
         if( day >= 23) {
             document.write('<p> su signo es ESCORPIO</p>');
             document.write('<img src="assets/escorpio.jpg">');
@@ -117,7 +118,7 @@ switch(month) {
         
         break;
 
-    case 'noviembre':
+    case 11:
         if( day >= 23) {
             document.write('<p> su signo es Sagitario</p>');
             document.write('<img src="assets/acuario.jpg">');
@@ -128,7 +129,7 @@ switch(month) {
         
         break;
 
-    case 'diciembre':
+    case 12:
         if( day >= 22) {
             document.write('<p> su signo es CAPRICORNIO</p>');
             document.write('<img src="assets/capricornio.jpg">');
